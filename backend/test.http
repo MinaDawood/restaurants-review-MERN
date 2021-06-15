@@ -1,1 +1,11 @@
 GET http://localhost:5000/api/v1/restaurants?name=food HTTP/1.1
+
+# POST http://localhost:5000/api/v1/restaurants/review HTTP/1.1
+
+# Content-Type: application/json
+#  {
+#      "restaurant_id":"5eb3d668b31de5d588f4292a",
+#      "text":"Great Food!",
+#      "user_id": "1234",
+#      "name": "Mina"
+#  }
